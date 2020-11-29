@@ -1,5 +1,7 @@
-body {
+#cname {
+    font-size: large;
+}
+
+#dname {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    background-color: aqua;
 }
