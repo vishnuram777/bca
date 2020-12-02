@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #ff50e2;
+    --primary-color: #93C5FD;
 }
 
 body {
-    font-family : 'Montserrat', sans-serif;
+    font-family : 'Montserrat', cursive;
 }
 
 
@@ -12,7 +12,7 @@ h1 {
     padding: 5px 5px; */
     margin: 5px 5px 15px 3px;
     border: 3px solid white;
-    background-color:#ff50e2;
+    background-color: var(--primary-color);
     
 }
 
@@ -23,7 +23,7 @@ h2 {
     padding: 5px 20px;
     border : 2px solid black;
     margin: 5px 5px;
-    background-color: hsl(318, 74%, 52%);
+    background-color: var(--primary-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }   
 
