@@ -1,3 +1,12 @@
+:root {
+    --primary-color: #ff50e2;
+}
+
+body {
+    font-family : 'Montserrat', sans-serif;
+}
+
+
 h1 {
     /* font-size: 22px;
     padding: 5px 5px; */
@@ -22,13 +31,24 @@ h2 {
     height: 50%;
     width: 80%;
     image-rendering: crisp-edges;
-    padding-left: 10%;
+    padding: 1rem 2rem 2rem 2rem;
 }
 
-#photos, #videos {
-    padding: 5px;
-    margin: 5px;
-    height: 40px;
-    width: auto;
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
+
+.link-images {
+    background-color : var(--primary-color);
+    border-radius: 0.5rem;
+    color: white; 
+}
+
+.link-videos {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
 
