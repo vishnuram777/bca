@@ -11,8 +11,9 @@ body {
     /* font-size: 22px;
     padding: 5px 5px; */
     /* margin-block-start: 0rem; */
-    margin: 1rem 2rem;
-    border: 3px solid white;
+
+    margin: 1rem;
+    border: 3px solid rgb(15, 15, 15);
     background-color: var(--primary-color);
     
 }
@@ -22,7 +23,7 @@ body {
 .college-dept {
 
     margin-block-start: 0rem;
-    padding: 5px 20px;
+    padding: 0.5rem 1rem;
     border : 2px solid black;
     margin: 1rem 1rem;
     background-color: var(--primary-color);
